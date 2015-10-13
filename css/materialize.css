@@ -2365,6 +2365,15 @@ span.badge {
   span.badge.new:after {
     content: " new"; }
 
+  span.badge.place {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #26a69a;
+    border-radius: 2px; }
+  span.badge.place:after {
+    content: " Place"; }
+
 nav ul a span.badge {
   position: static;
   margin-left: 4px;
