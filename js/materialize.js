@@ -427,6 +427,7 @@ else {
     $('.collapsible').collapsible();
     $(".dropdown-button").dropdown();
     $(".button-collapse").sideNav();
+    $('.scrollspy').scrollSpy();
   });
 }( jQuery ));;(function ($) {
 
