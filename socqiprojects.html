@@ -18,16 +18,61 @@
 </head>
 <body>
 
+<!-- Start Navbar -->
 
-<?php include 'includes/header.php'; ?>
+  <div class="navbar-fixed">
+    <ul id="dropdown1" class="dropdown-content">
+  <li><a href="about.html">About</a></li>
+  <li class="divider"></li>
+  <li><a href="howitworks.html">How It Works</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="faq.html">FAQ</a></li>
+</ul>
+    <nav class="green" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">SOCQI</a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">About<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="projects.html">Invest</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Invest</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
+<!-- End Navbar -->
+
+<!-- Social Button -->
+
+<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large green">
+      <i class="large material-icons">person_add</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating light-blue accent-3" href="http://twitter.com/richardcskill"><img src="images/social/twitterwhite.png" class="img"></img></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">linkedin</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">facebook</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">email</i></a></li>
+    </ul>
+  </div>
+
+
+<!-- End Social Button -->
 
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <h1 class="header center orange-text">Adventure</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">Below are some of my cool experiences.</h5>
-      </div>
+      <h1 class="header center blue-grey-text">Projects</h1>
+      <!-- <div class="row center">
+        <h5 class="header col s12 light">Below are a sample of my works.</h5>
+      </div> -->
     </div>
   </div>
 
@@ -35,38 +80,13 @@
   <div class="container">
     <div class="section">
 
-      <!--   Project List - based on http://adbeus.com/-->
 
-     </div>
+      <!--   Start Project List - based on http://adbeus.com/ -->
 
-    <br>
          <div class="divider"></div>
        <div class="section">
     <!-- <a class="tooltipped title" data-position="bottom" data-delay="50" data-tooltip="Coffee Shops that opened in the past few weeks, they need your support early!">New Coffee Shops</a> -->
-
-    <!-- Begin Adventure Cards -->
-         <div class="row">
-        <div class="col s8 offset-s2">
-          <div class="card large">
-            <div class="card-image">
-              <img src="images/projects/aura.png">
-              <span class="card-title">Adventure #1</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div align="right" class="right card-action">
-              <a href="adventures/adventure1.html">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-            
-
-
-    <!-- End Adventure Cards -->
-
+    <a class="title" href="">OPEN PROJECTS</a>
     <div class="row isotope">
       <div class="col s12 m12 l4">
         <div class="card">
@@ -75,32 +95,21 @@
            <img width="800" height="600" src="images/projects/socqi.png" class="responsive-img wp-post-image" alt="SOCQI" title="SOCQI" />    </a>
           </div>
             <div class="card-content">
-              <p class="area"><a href="projects/socqi.html">Energy</a></p>
-              <a href="projects/socqi.html" data-deeplink="richardskill://projects-socqi"><span class="card-title activator brown-text text-darken-4">SOCQI</span></a>
+              <p class="area"><a href="projects/socqi.html">Wind Farm</a></p>
+              <a href="projects/socqi.html" data-deeplink="richardskill://projects-socqi"><span class="card-title activator brown-text text-darken-4"><span class="new badge"></span>SOCQI</span></a>
             </div>
         </div>
       </div>
-      <div class="col s12 m12 l4">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-           <a href="projects/synergy.html">
-            <img width="320" height="240" src="images/projects/synergy.png" class="responsive-img wp-post-image" alt="Synergy" title="Synergy"/>    </a>
-          </div>
-        <div class="card-content">
-          <p class="area"><a href="projects/synergy.html">Energy</a></p>
-        <a href="projects/synergy.html" data-deeplink="richardskill://projects-synergy"><span class="card-title activator brown-text text-darken-4"><span class="place badge">1st</span>Synergy</span></a>
-      </div>
-    </div>
-  </div>
+     
   <div class="col s12 m12 l4">
     <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <a href="projects/aura.html">
-        <img width="945" height="709" src="images/projects/aura.png" class="responsive-img wp-post-image" alt="Aura" title="Aura" />    </a>
+        <img width="945" height="709" src="images/projects/socqi.png" class="responsive-img wp-post-image" alt="Aura" title="Aura" />    </a>
       </div>
       <div class="card-content">
-          <p class="area"><a href="projects/aura.html">Satellite</a></p>
-        <a href="projects/aura.html" data-deeplink="richardskill://projects-aura"><span class="card-title activator brown-text text-darken-4">Aura</span></a>
+          <p class="area"><a href="projects/aura.html">Solar</a></p>
+        <a href="projects/aura.html" data-deeplink="richardskill://projects-aura"><span class="card-title activator brown-text text-darken-4">SOCQI</span></a>
       </div>
     </div>
   </div>
@@ -108,11 +117,11 @@
     <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <a href="projects/getback.html">
-        <img width="640" height="480" src="images/projects/getback.png" class="responsive-img wp-post-image" alt="Get Back" title="Get Back" />    </a>
+        <img width="640" height="480" src="images/projects/socqi.png" class="responsive-img wp-post-image" alt="Get Back" title="Get Back" />    </a>
       </div>
       <div class="card-content">
-          <p class="area"><a href="projects/getback.html">Mobile App</a></p>
-          <a href="projects/getback.html" data-deeplink="richardskill://projects-getback"><span class="card-title activator brown-text text-darken-4"><span class="place badge">2nd</span>Get Back</span></a>
+          <p class="area"><a href="projects/getback.html">Solar</a></p>
+          <a href="projects/getback.html" data-deeplink="richardskill://projects-getback"><span class="card-title activator brown-text text-darken-4">SOCQI</span></a>
       </div>
     </div>
   </div>
@@ -124,6 +133,18 @@
     <!-- <a class="tooltipped title" data-position="bottom" data-delay="50" data-tooltip="Coffee Shops that opened in the past few weeks, they need your support early!">New Coffee Shops</a> -->
     <a class="title" href="">ARCHIVED PROJECTS - AMAZING LEARNING EXPERIENCES</a>
     <div class="row isotope">
+   <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+           <a href="projects/synergy.html">
+            <img width="320" height="240" src="images/projects/synergy.png" class="responsive-img wp-post-image" alt="Synergy" title="Synergy"/>    </a>
+          </div>
+        <div class="card-content">
+          <p class="area"><a href="projects/synergy.html">Energy</a></p>
+        <a href="projects/synergy.html" data-deeplink="richardskill://projects-synergy"><span class="card-title activator brown-text text-darken-4"><span class="place badge">1st</span>Synergy</span></a>
+      </div>
+    </div>
+  </div>
   <div class="col s12 m12 l4">
     <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
@@ -187,6 +208,8 @@
   </div>
 </div>
 </div>
+
+<!-- End Projects Section -->
 
  <!-- random message code BEGIN -->
 
